@@ -20,7 +20,7 @@ export const STYLES = [
   { id: 'lace-frontal', name: 'Lace Frontal Install', category: 'Wig Seller', img: '/images/images/wig install.jpg' },
   { id: 'hd-wig', name: 'HD Wig Unit', category: 'Wig Seller', img: '/images/wig 3.jpg' },
   { id: 'wig-ventilation', name: 'Custom Ventilated Wig', category: 'Wig Ventilator', img: '/images/ventilator.jpg' },
-  { id: 'bridal-makeup', name: 'Bridal Makeup', category: 'Makeup Artist', img: 'https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=600&auto=format&fit=crop' },
+  { id: 'bridal-makeup', name: 'Bridal Makeup', category: 'Makeup Artist', img: '/images/Bridal makeup.jpg' },
   { id: 'cornrows', name: 'Cornrows', category: 'Hair Stylist', img: '/images/images/braids2.jpg' },
   { id: 'gel-nails', name: 'Gel Nails', category: 'Nail Technician', img: '/images/nails 1.jpg' },
 ];

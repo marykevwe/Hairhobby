@@ -4,9 +4,9 @@ import { COUNTRIES } from '../data/locations';
 import { CATEGORIES } from '../data/mockData';
 
 const SLIDES = [
-  { img: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=1600&auto=format&fit=crop', eyebrow: 'Protective styling', title: 'Knotless braids that travel with you' },
+  { img: '/images/images/braids4.jpg', eyebrow: 'Protective styling', title: 'Knotless braids that travel with you' },
   { img: 'https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=1600&auto=format&fit=crop', eyebrow: 'Barbering', title: 'Fades sharp enough to cast a shadow' },
-  { img: 'https://images.unsplash.com/photo-1597225637905-1e9b80e08a83?q=80&w=1600&auto=format&fit=crop', eyebrow: 'Wig artistry', title: 'HD lace, hand-ventilated to the skin' },
+  { img: '/images/studio.jpg', eyebrow: 'Wig artistry', title: 'HD lace, hand-ventilated to the skin' },
   { img: 'https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=1600&auto=format&fit=crop', eyebrow: 'Makeup', title: 'Bridal glam that lasts past midnight' },
 ];
 
@@ -50,7 +50,7 @@ export default function HeroCarousel() {
           <img
             src={slide.img}
             alt={slide.title}
-            className={`w-full h-full object-cover ${i === index ? 'scale-110' : 'scale-100'} transition-transform duration-[6000ms] ease-out`}
+            className={`w-full h-full  ${i === index ? 'scale-110' : 'scale-100'} transition-transform duration-[6000ms] ease-out`}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-ink-900/85 via-ink-900/30 to-ink-900/40" />
         </div>
