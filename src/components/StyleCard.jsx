@@ -7,7 +7,7 @@ export default function StyleCard({ style }) {
       to={`/explore?style=${style.id}&category=${encodeURIComponent(style.category)}`}
       className="group relative w-full h-48 sm:h-60 rounded-2xl overflow-hidden shadow-soft"
     >
-      <img src={style.img} alt={style.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+      <img src={style.img} alt={style.name} className="w-full h-full group-hover:scale-110 transition-transform duration-500" />
       <div className="absolute inset-0 bg-gradient-to-t from-ink-900/80 via-ink-900/10 to-transparent" />
       <div className="absolute bottom-0 left-0 p-3 sm:p-4">
         <p className="text-white/70 text-xs uppercase tracking-wide font-semibold mb-1">{style.category}</p>
