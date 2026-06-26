@@ -26,16 +26,16 @@ export default function Home() {
       <HeroCarousel />
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="flex items-end justify-between mb-6">
-          <div>
-            <p className="text-brand-600 font-semibold text-sm uppercase tracking-wide mb-1">Browse by look</p>
-            <h2 className="font-display text-3xl font-semibold text-ink-900">Pick a style, meet your pro</h2>
-          </div>
-        </div>
-        <div className="flex gap-4 overflow-x-auto pb-2 snap-x scrollbar-none -mx-4 px-4 sm:mx-0 sm:px-0">
-          {STYLES.map((style) => <StyleCard key={style.id} style={style} />)}
-        </div>
-      </section>
+  <div className="flex items-end justify-between mb-6">
+    <div>
+      <p className="text-brand-600 font-semibold text-sm uppercase tracking-wide mb-1">Browse by look</p>
+      <h2 className="font-display text-3xl font-semibold text-ink-900">Pick a style, meet your pro</h2>
+    </div>
+  </div>
+  <div className="grid grid-cols-3 gap-3 sm:gap-4">
+    {STYLES.map((style) => <StyleCard key={style.id} style={style} />)}
+  </div>
+</section>
 
       <section className="bg-brand-50/60 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -82,7 +82,7 @@ export default function Home() {
 
       <section className="py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-brand-500 to-brand-700 rounded-3xl p-10 sm:p-14 text-center shadow-soft">
-          <h2 className="font-display text-3xl sm:text-4xl font-semibold text-white mb-3">Run your business on Tressly</h2>
+          <h2 className="font-display text-3xl sm:text-4xl font-semibold text-white mb-3">Run your business on HairHobby</h2>
           <p className="text-white/85 max-w-xl mx-auto mb-8">List your services, set your own prices, manage bookings and grow your client base — wherever in the world you work from.</p>
           <Link to="/signup-pro" className="inline-block bg-white text-brand-700 font-semibold px-8 py-3 rounded-full hover:bg-brand-50 transition-colors">
             Register your business

@@ -7,8 +7,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         <div>
           <div className="flex items-center gap-2 mb-3">
-            <span className="w-8 h-8 rounded-full bg-brand-500 flex items-center justify-center text-white font-display text-lg">T</span>
-            <span className="font-display text-xl font-semibold text-white">Tressly</span>
+            <span className="w-8 h-8 rounded-full bg-brand-500 flex items-center justify-center text-white font-display text-lg">H</span>
+            <span className="font-display text-xl font-semibold text-white">HairHobby</span>
           </div>
           <p className="text-sm text-white/60 leading-relaxed">The worldwide booking marketplace for stylists, barbers, wig sellers and wig ventilators.</p>
         </div>
@@ -31,7 +31,7 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-3 text-sm uppercase tracking-wide">Company</h4>
           <ul className="space-y-2 text-sm">
-            <li><span className="hover:text-brand-300 cursor-default">About Tressly</span></li>
+            <li><span className="hover:text-brand-300 cursor-default">About HairHobby</span></li>
             <li><span className="hover:text-brand-300 cursor-default">Trust &amp; Safety</span></li>
             <li><span className="hover:text-brand-300 cursor-default">Contact</span></li>
           </ul>
